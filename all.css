@@ -461,7 +461,6 @@ h2{
     box-shadow: 0px 2px 10px #00000014;
     border-radius: 12px;
     position: relative;
-    width: 33%;
 }
 .review-item1 img, .review-item2 img, .review-item3 img{
     width: 86px;
@@ -513,7 +512,7 @@ h2{
     }
     .reviewmenu{
         flex-direction: column;
-        
+        width: 100%;
     }
     .review-item2, .review-item3{
         display: none;
