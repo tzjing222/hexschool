@@ -475,7 +475,8 @@ h2{
     text-align: left;
 }
 .review-item1 .p1, .review-item2 .p1, .review-item3 .p1{
-    padding: 48px 32px 48px 32px;
+    padding: 48px 32px 24px 32px;
+    border-bottom: 1px solid #DDDDDD;
 }
 .review-item1 h4, .review-item2 h4, .review-item3 h4{
     font-size: 16px;
@@ -483,6 +484,7 @@ h2{
     text-align: left;
     font-weight: bold;
     padding-bottom: 8px;
+    padding-top: 24px;
 }
 .review-item1 .p2, .review-item2 .p2, .review-item3 .p2{
     padding-left: 32px;
@@ -520,15 +522,17 @@ h2{
     /*.review-item1 img{
         position: absolute;
     }*/
-    .review-item1 p{
+    .review-item1 p, .review-item2 p, .review-item3 p{
         font-size: 16px;
         text-align: left;
     }
-    .review-item .p1{
-        padding: 48px 16px 32px 16px;
+    .review-item1 .p1, .review-item2 .p1, .review-item3 .p1{
+        padding: 48px 16px 16px 16px;
+        border-bottom: 1px solid #00000014;
     }
     .review-item1 h4{
-        padding-left: 16px
+        padding-left: 16px;
+        padding-top: 16px;
     }
     .review-item1 .p2{
         padding-left: 16px;
